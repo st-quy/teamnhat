@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-navbar li{
+    position: relative;
+}
+.menu-navbar li a.active{
+    color: darkgreen;
+}
+.menu-navbar li a.active::after{
+    content: "";
+    background: darkgreen;
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    bottom: -4px;
+    left: 20px;
+}
+
+.menu-navbar li{
+    position: relative;
+}
+.menu-navbar li a.active{
+    color: darkgreen;
+}
+.menu-navbar li a.active::after{
+    content: "";
+    background: darkgreen;
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    bottom: -4px;
+    left: 20px;
+}
+
+.heading{
+    margin-top: 70px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.text{
+    color: #5c5470;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button{
+    width: 210px;
+    height: 52px;
+    background-color: black;
+    color: white !important;
+    color: white !important;
+    border-radius: 62px;
+}
+
+.col-sm-4:hover {
+    /* CSS khi di chuột hover */
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+.number{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.model{
+    margin-top: 50px;
+
+}
+.brand{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-left: 40px;
+}
+.image{
+    width: 236px;
+    height: 238px;
+    /* width: 95%; */
+    width: 236px;
+    height: 238px;
+    /* width: 95%; */
+}
+.dis{
+    color: darkgray;
+    text-decoration: line-through;
+}
+.view_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewAll{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.col-sm-3:hover {
+    /* CSS khi di chuột hover */
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+@keyframes colorAnimation {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: green;
+    }
+}
+
+.fw-bold.text-center {
+    animation: colorAnimation 3s infinite;
+}
+@media screen and (max-width: 575px){
+    .button{
+        background-color: black;
+        color: white;
+        border-radius: 62px;
+        width: 90%;
+        height: 50px;      
+    }
+    .number{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .model img{
+        max-width: 100%;
+    }
+    .brand{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .logo{
+        margin-right: 40px;
+        height: 26px;
+    }
+
+    .view_button{
+        width: 40%;
+    }
+    .image{
+        width: 80%;
+    }
+    .container-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

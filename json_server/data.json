@@ -1,0 +1,588 @@
+{
+  "products": [
+    {
+      "name": "T-shirt",
+      "price": "120",
+      "discountAmount": "40",
+      "stock": "10",
+      "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "brand": "gucci",
+      "category": "t-shirts",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/nLHQWmyR/Frame-19.png",
+        "color": "orange",
+        "url2": "",
+        "color2": "brown",
+        "url3": "",
+        "color3": "black",
+        "url4": "",
+        "color4": "green"
+      },
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "id": 1
+    },
+    {
+      "name": "T-shirt",
+      "price": "220",
+      "discountAmount": "40",
+      "stock": "10",
+      "description": "This stylish t-shirt is perfect for any occasion. Made from a soft and breathable fabric, it offers both comfort and a fashionable look.",
+      "brand": "zara",
+      "category": "t-shirts",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/90xx4VGV/Frame-17.png",
+        "color": "black",
+        "url2": "",
+        "color2": "white",
+        "url3": "",
+        "color3": "green",
+        "url4": "",
+        "color4": "brown"
+      },
+      "size": [
+        "XL",
+        "XXL"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Shirt",
+      "price": "120",
+      "discountAmount": "10",
+      "stock": "10",
+      "description": "Explore our collection today and discover the perfect shirt that speaks to your unique personality and fashion sense.",
+      "brand": "prada",
+      "category": "shirts",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.ibb.co/yFbhty9/image-1.png",
+        "color": "black",
+        "url2": "",
+        "color2": "green",
+        "url3": "",
+        "color3": "orange",
+        "url4": "",
+        "color4": "white"
+      },
+      "size": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "id": 3
+    },
+    {
+      "name": "Jean skirt",
+      "price": "70",
+      "discountAmount": "5",
+      "stock": "10",
+      "description": "This elegant skirt is suitable for any event. Made from a lightweight and flowy fabric, it ensures both comfort and style.",
+      "brand": "gucci",
+      "category": "dresses",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/TwMpnDRY/2.png",
+        "color": "blue",
+        "url2": "",
+        "color2": "black",
+        "url3": "",
+        "color3": "brown",
+        "url4": "",
+        "color4": ""
+      },
+      "size": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Pleated skirt",
+      "price": "70",
+      "discountAmount": "5",
+      "stock": "10",
+      "description": "Our collection features a stunning range of dresses, crafted with high-quality materials for a luxurious look and feel.",
+      "brand": "gucci",
+      "category": "dresses",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/TPpWGxPg/Frame-20.png",
+        "color": "pink",
+        "url2": "",
+        "color2": "black",
+        "url3": "",
+        "color3": "white",
+        "url4": "",
+        "color4": "brown"
+      },
+      "size": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Crop-top shirt",
+      "price": "70",
+      "discountAmount": "20",
+      "stock": "10",
+      "description": "Stay comfortable and stylish with this casual shirt. The soft fabric and relaxed fit make it ideal for everyday wear.",
+      "brand": "zira",
+      "category": "t-shirts",
+      "img": {
+        "url": "https://i.postimg.cc/mDVxSvQp/Frame-33-1.png",
+        "color": "blue",
+        "url2": "",
+        "color2": "pink",
+        "url3": "",
+        "color3": "red",
+        "url4": "",
+        "color4": "orange"
+      },
+      "size": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "status": "Enabled",
+      "id": 6
+    },
+    {
+      "name": "T-shirt",
+      "price": "70",
+      "discountAmount": "5",
+      "stock": "10",
+      "description": "Our collection features a wide range of t-shirts, each crafted with attention to detail and quality materials for a superior fit and style.",
+      "brand": "zira",
+      "category": "t-shirts",
+      "img": {
+        "url": "https://i.postimg.cc/Sx4wwQD1/Frame-38.png",
+        "color": "black",
+        "url2": "",
+        "color2": "orange",
+        "url3": "",
+        "color3": "blue",
+        "url4": "",
+        "color4": "brown"
+      },
+      "size": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "status": "Enabled",
+      "id": 7
+    },
+    {
+      "name": "Kaki shorts",
+      "price": "70",
+      "discountAmount": "5",
+      "stock": "10",
+      "description": "Our collection features a variety of shorts, each designed with attention to detail and quality materials for a comfortable and stylish fit.",
+      "brand": "zira",
+      "category": "shorts",
+      "img": {
+        "url": "https://i.postimg.cc/7ZPK35B4/Frame-126.png",
+        "color": "white",
+        "url2": "",
+        "color2": "blue",
+        "url3": "",
+        "color3": "black",
+        "url4": "",
+        "color4": "brown"
+      },
+      "size": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "status": "Enabled",
+      "id": 8
+    },
+    {
+      "name": "Jeans",
+      "price": "150",
+      "discountAmount": "10",
+      "stock": "13",
+      "description": "Stay comfortable and on-trend with these trendy jeans. Their flattering cut and stretchy fabric provide both style and ease of movement.",
+      "brand": "gucci",
+      "category": "jeans",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/Sxwzy5YP/Frame-127.png",
+        "color": "blue",
+        "url2": "",
+        "color2": "black",
+        "url3": "",
+        "color3": "brown",
+        "url4": "",
+        "color4": "white"
+      },
+      "size": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "id": 9
+    },
+    {
+      "name": "T-shirt",
+      "price": "40",
+      "discountAmount": "0",
+      "stock": "10",
+      "description": "Make a bold statement with this graphic t-shirt. Its vibrant print and bold typography make it a standout piece for expressing your individuality.",
+      "brand": "gucci",
+      "category": "t-shirts",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/tTLXPQp0/image-1.png",
+        "color": "green",
+        "url2": "",
+        "color2": "black",
+        "url3": "",
+        "color3": "brown",
+        "url4": "",
+        "color4": "red"
+      },
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Shirt",
+      "price": "170",
+      "discountAmount": "10",
+      "stock": "12",
+      "description": "Elevate your outfit with this versatile shirt. Its impeccable tailoring and refined details bring sophistication to any ensemble.",
+      "brand": "gucci",
+      "category": "shirts",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/PrbtLR7c/image-2.png",
+        "color": "white",
+        "url2": "",
+        "color2": "pink",
+        "url3": "",
+        "color3": "blue",
+        "url4": "",
+        "color4": "black"
+      },
+      "size": [
+        "M",
+        "XL",
+        "XXL"
+      ],
+      "id": 11
+    },
+    {
+      "name": "Shirt",
+      "price": "430",
+      "discountAmount": "20",
+      "stock": "14",
+      "description": "This classic shirt is a wardrobe staple. Constructed from a premium cotton blend, it offers a timeless style and exceptional durability.",
+      "brand": "prada",
+      "category": "shirts",
+      "status": "Enabled",
+      "img": {
+        "url": "https://i.postimg.cc/5937653g/image-9.png",
+        "color": "blue",
+        "url2": "",
+        "color2": "white",
+        "url3": "",
+        "color3": "orange",
+        "url4": "",
+        "color4": "brown"
+      },
+      "size": [
+        "L"
+      ],
+      "id": 12
+    },
+    {
+      "name": "Shorts",
+      "price": "210",
+      "discountAmount": "15",
+      "stock": "121",
+      "description": "Whether you're going for a run or running errands, these versatile shorts are perfect for any active lifestyle. Their durable construction and functional pockets make them a practical choice",
+      "brand": "zira",
+      "category": "shorts",
+      "img": {
+        "url": "https://i.postimg.cc/3x0LNgDw/short1.png",
+        "color": "blue",
+        "url2": "",
+        "color2": "black",
+        "url3": "",
+        "color3": "white",
+        "url4": "",
+        "color4": "pink"
+      },
+      "size": [
+        "M",
+        "XL"
+      ],
+      "status": "Enabled",
+      "id": 13
+    },
+    {
+      "name": "Black shorts",
+      "price": "30",
+      "discountAmount": "3",
+      "stock": "12",
+      "description": "Make a fashion statement with these high-waisted jeans. Their figure-flattering silhouette and modern design are sure to turn heads.",
+      "brand": "zara",
+      "category": "shorts",
+      "status": "Disabled",
+      "img": {
+        "url": "https://i.postimg.cc/fW8yTPXM/image-9.png",
+        "color": "red",
+        "url2": "",
+        "color2": "",
+        "url3": "",
+        "color3": "",
+        "url4": "",
+        "color4": ""
+      },
+      "size": [
+        "M"
+      ],
+      "id": 14
+    },
+    {
+      "name": "Shirt",
+      "price": "25",
+      "discountAmount": "4",
+      "stock": "12",
+      "description": "Elevate your outfit with this versatile shirt. Its impeccable tailoring and refined details bring sophistication to any ensemble.",
+      "brand": "gucci",
+      "category": "shirts",
+      "status": "Disabled",
+      "img": {
+        "url": "https://i.postimg.cc/prYBzZJf/shirt1.png",
+        "color": "red",
+        "url2": "",
+        "color2": "",
+        "url3": "",
+        "color3": "",
+        "url4": "",
+        "color4": ""
+      },
+      "size": [
+        "M",
+        "XL"
+      ],
+      "id": 15
+    },
+    {
+      "name": "White shirt",
+      "price": "120",
+      "discountAmount": "5",
+      "stock": "1",
+      "description": "This classic shirt is a wardrobe staple. Constructed from a premium cotton blend, it offers a timeless style and exceptional durability.",
+      "brand": "prada",
+      "category": "shirts",
+      "status": "Disabled",
+      "img": {
+        "url": "https://i.postimg.cc/CxXwfTLV/image-12.png",
+        "color": "red",
+        "url2": "",
+        "color2": "",
+        "url3": "",
+        "color3": "",
+        "url4": "",
+        "color4": ""
+      },
+      "size": [
+        "XL",
+        "XXL"
+      ],
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "Shin",
+      "email": "Shin@gmail.com",
+      "address": "Texas, USA",
+      "phone": "09999999",
+      "password": "123456",
+      "status": "Active",
+      "role": "user"
+    },
+    {
+      "userName": "Nhat",
+      "email": "sun@gmail.com",
+      "phone": "09999999",
+      "address": "Texas, USA",
+      "password": "123456",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "userName": "Quyen",
+      "email": "quyenle@gmail.com",
+      "address": "BinhDinh",
+      "phone": "03971826823",
+      "role": "user",
+      "status": "Active",
+      "password": "123123",
+      "id": 3
+    },
+    {
+      "userName": "Hi",
+      "email": "hipham@gmail.com",
+      "address": "quangngai",
+      "phone": "095934872397",
+      "role": "user",
+      "status": "Active",
+      "password": "123123",
+      "id": 4
+    },
+    {
+      "userName": "Le",
+      "email": "leho@gmail.com",
+      "address": "quangtri",
+      "phone": "095934872397",
+      "role": "user",
+      "status": "Active",
+      "password": "123123",
+      "id": 5
+    },
+    {
+      "userName": "nhat",
+      "email": "nhat@gmail.com",
+      "address": "123",
+      "phone": "123",
+      "role": "user",
+      "status": "Active",
+      "password": "123",
+      "id": 6
+    }
+  ],
+  "carts": [
+    {
+      "id": 5,
+      "productsCart": [
+        {
+          "productId": 1,
+          "size": "M",
+          "color": "red",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "size": "M",
+          "color": "red",
+          "quantity": 2
+        },
+        {
+          "productId": "3",
+          "size": "M",
+          "color": "brown",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "productsCart": [
+        {
+          "productId": "5",
+          "size": "M",
+          "color": "brown",
+          "quantity": "1"
+        },
+        {
+          "productId": "3",
+          "size": "M",
+          "color": "brown",
+          "quantity": "1"
+        },
+        {
+          "productId": "1",
+          "size": "M",
+          "color": "brown",
+          "quantity": "1"
+        },
+        {
+          "productId": "1",
+          "size": "S",
+          "color": "brown",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "productsCart": [
+        {
+          "productId": "3",
+          "size": "S",
+          "color": "brown",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "productsCart": [
+        {
+          "productId": "16",
+          "size": "XL",
+          "color": "brown",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "productsCart": [
+        {
+          "productId": "8",
+          "size": "XL",
+          "color": "brown",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "productsCart": [
+        {
+          "productId": "5",
+          "size": "M",
+          "color": "brown",
+          "quantity": "1"
+        },
+        {
+          "productId": "3",
+          "size": "M",
+          "color": "brown",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "productsCart": [
+        {
+          "productId": "3",
+          "size": "S",
+          "color": "brown",
+          "quantity": "1"
+        }
+      ]
+    }
+  ]
+}

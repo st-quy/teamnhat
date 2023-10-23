@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/hearder-footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/e1aaf64c7e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/hearder-footer.css">
+  <title>Fashion Shop</title>
+</head>
+
+<body>
+  <div class="row on-top bg-dark text-center p-2">
+    <span class="text-white">Sign up and get 20% off to your first order. <a
+        class=" text-white text-decoration-underline" href="">Sign Up Now</a></span>
+  </div>
+  <!-- modal login -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header  align-items-center">
+          <h5 class="modal-title">Log in</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="userEmail-inp" class="col-form-label">Email: <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="userEmail-inp" required>
+          </div>
+          <div class="mb-3">
+            <label for="pword-inp" class="col-form-label">Password: <span class="text-danger">*</span></label>
+            <input type="password" class="form-control" id="pword-inp" required>
+          </div>
+          <button type="button" class="btn btn-primary" onclick="checkLogIn()">Log in</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal"
+            data-bs-target="#modal2">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal sign up -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal2Label">Sign up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="name-reg" class="col-form-label">User name: <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="name-reg" required>
+          </div>
+          <div class="mb-3">
+            <label for="email-reg" class="col-form-label">Email: <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email-reg" required>
+          </div>
+          <div class="mb-3">
+            <label for="email-confirm" class="col-form-label">confirm email: <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email-confirm" required>
+          </div>
+          <div class="mb-3">
+            <label for="pword-reg" class="col-form-label">Password: <span class="text-danger">*</span></label>
+            <input type="password" class="form-control" id="pword-reg" required>
+          </div>
+          <div class="mb-3">
+            <label for="pword-confirm" class="col-form-label">Confirm password: <span
+                class="text-danger">*</span></label>
+            <input type="password" class="form-control" id="pword-confirm" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone-reg" class="col-form-label">Phone: <span class="text-danger">*</span></label>
+            <input type="tel" class="form-control" id="phone-reg" required>
+          </div>
+          <div class="mb-3">
+            <label for="address-reg" class="col-form-label">Address: <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="address-reg" required>
+          </div>
+          <button type="button" class="btn btn-primary" onclick="checkSignUp()">Sign up</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal"
+            data-bs-target="#modal1">Log in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="header sticky-top bg-white">
+    <nav class="container-fluid">
+      <div class="row">
+        <div class="col-7 d-sm-none d-block text-start">
+          <nav class="navbar justify-content-start">
+            <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="homePage.html"><img src="../image/Logo.png" alt="logo" class="ms-2" style="width: 100px;"></a>
+          </nav>
+        </div>
+        <div class="col-5 d-sm-none d-flex justify-content-end align-items-center">
+          <span><i class="fa-solid fa-magnifying-glass fs-2 me-3"></i></i></span>
+          <button type="button" class="btn me-3 p-0" data-bs-toggle="modal" data-bs-target="#modal1"
+            onclick="handleUserButton()"><i class="fa-regular fa-circle-user fs-2 m-0" id="user-icon"></i></button>
+          <a href="Cart.html" class="text-black"><i class="fa-solid fa-bag-shopping fs-2 me-3" id="cart-icon"></i></a>
+        </div>
+        <div class="col-sm-2 p-0 d-sm-block d-none">
+          <a href="homePage.html"><img src="../image/Logo.png" alt="logo" class="w-75"></a>
+        </div>
+        <div class="col-sm-10 d-sm-block d-none ">
+          <div class="d-flex flex-column justify-content-center h-100">
+            <div class="row w-100 align-items-center">
+              <div class="col-9 d-flex align-items-center">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="search-inp" placeholder="Search for anything"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary bg-warning" type="button" id="button-addon2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-3 d-flex align-content-center justify-content-center">
+                <button type="button" class="btn me-3 p-0" data-bs-toggle="modal" data-bs-target="#modal1"
+                  onclick="handleUserButton()"><i class="fa-regular fa-circle-user fs-2 m-0"
+                    id="user-icon"></i></button>
+                <a href="Cart.html" class="text-dark ms-5"><i class="fa-solid fa-bag-shopping fs-2 ms-3"
+                    id="cart-icon"></i></a>
+              </div>
+            </div>
+            <div class="row justify-content-start w-100">
+              <div class="col-9 mt-2">
+                <ul class="menu justify-content-center">
+                  <li><a href="homePage.html">Home</a></li>
+                  <li><a href="#">Category<span class="arrow">&#129175;</span></a>
+                    <ul class="sub-menu">
+                      <li><a href="category.html"
+                          onclick="window.localStorage.setItem('category','t-shirts')">T-shirts</a></li>
+                      <li><a href="category.html" onclick="window.localStorage.setItem('category','shorts')">Shorts</a>
+                      </li>
+                      <li><a href="category.html" onclick="window.localStorage.setItem('category','shirts')">Shirts</a>
+                      </li>
+                      <li><a href="category.html"
+                          onclick="window.localStorage.setItem('category','hoodies')">Hoodies</a></li>
+                      <li><a href="category.html" onclick="window.localStorage.setItem('category','jeans')">Jeans</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Brand<span class="arrow">&#129175;</span></a>
+                    <ul class="sub-menu">
+                      <li><a href="category.html" onclick="window.localStorage.setItem('brand','zara')">Zara</a></li>
+                      <li><a href="category.html" onclick="window.localStorage.setItem('brand','gucci')">Gucci</a></li>
+                      <li><a href="category.html" onclick="window.localStorage.setItem('brand','prada')">Prada</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="category.html">Products</a></li>
+                  <li><a href="AboutUs.html">About</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="homePage.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Category
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('category','t-shirts')">T-shirts</a></li>
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('category','shorts')">Shorts</a></li>
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('category','shirts')">Shirts</a></li>
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('category','hoodies')">Hoodies</a></li>
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('category','jeans')">Jeans</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Brand
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('brand','zara')">Zara</a></li>
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('brand','gucci')">Gucci</a></li>
+                <li><a class="dropdown-item" href="category.html"
+                    onclick="window.localStorage.setItem('brand','prada')">Prada</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="category.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="AboutUs.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- content -->
+  <div class="container">
+    <h1 class="fw-bold text-center mt-4">NEW ARRIVALS</h1>
+    <div class="row mt-4" id="newProducts">
+      <div class="col-sm-3 col-12 text-center">
+        <img class="image" src="../image/Frame 32.png" alt="image">
+        <p class="fw-bold mt-2">T-SHIRT WITH TAPE DETAILS</p>
+        <img src="../image/Frame 35.png" alt="image">
+        <p class="fw-bold fs-4">$120</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="footer pt-5 position-relative">
+    <div class="container-fluid pb-5">
+      <div
+        class="subcribe bg-dark align-content-center rounded-4 position-absolute top-0 start-50 translate-middle me-sm-0 me-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-5 col-12 p-4 me-sm-5 ">
+            <span class="text-white fw-bold fs-1 lh-1 w-50">STAY UPTO DATE ABOUT OUR LATEST OFFERS</span>
+          </div>
+          <div class="col-sm-4 col-12 p-4 pt-sm-4 pt-0 p-0 ms-sm-5 ">
+            <div class="row">
+              <input type="text" class="fs-sm-4 w-sm-75 rounded-5 text-center" placeholder="&#9993; Enter your email"
+                id="letter-mail">
+            </div>
+            <div class="row mt-3">
+              <button class="btn btn-light fs-sm-4 w-sm-75 rounded-5 mt-2" id="subcribe">Subcribe to Newletter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-sm-0 mt-5">
+        <div class="col-sm-4 col-12 m-sm-5 mt-5">
+          <a href="homePage.html"><img src="../image/Logo.png" alt="logo" class="mt-sm-0 mt-5"
+              style="width: 100px;"></a>
+          <div class="fw-bold mt-2 mb-2">Contact</div>
+          <div class="mb-3">
+            <span>Address: 562 Wellington Road, Street 32, San Francisco</span> <br>
+            <span>Phone: +01 2222 365</span> <br>
+            <span>Hours: 10:00-18:00</span> <br>
+          </div>
+          <div class="d-flex">
+            <div class="icon d-flex justify-content-center align-items-center"><i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="icon d-flex justify-content-center align-items-center"><i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon d-flex justify-content-center align-items-center"><i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="icon d-flex justify-content-center align-items-center"><i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-6 mt-sm-5 mt-3">
+          <div class="fw-bold mt-sm-5 mb-2">About </div>
+          <div class="mb-3">
+            <a href="AboutUs.html" class="nav-link">About us</a>
+            <span>Delivery information</span> <br>
+            <span>Privacy Policy</span> <br>
+            <span>Term & Conditions</span> <br>
+            <span>Contact Us</span>
+          </div>
+        </div>
+        <div class="col-sm-2 col-6 mt-sm-5 mt-3">
+          <div class="fw-bold mt-sm-5 mb-2">My Account</div>
+          <div class="mb-3">
+            <span>Sign in</span> <br>
+            <a href="Cart.html" class="nav-link">View Cart</a>
+            <span>Track My Order</span> <br>
+            <span>Help</span> <br>
+          </div>
+        </div>
+        <div class="col-sm-2 col-12 mt-sm-5 mt-3">
+          <div class="fw-bold mt-sm-5 mb-2">Install App</div>
+          <div class="mb-3">
+            <span>From App Store or Google Play</span> <br>
+            <div class="row pt-3 pb-3">
+              <div class="col ps-0">
+                <img src="../image/AppStore.png" alt="AppStore" style="width: 100%;">
+              </div>
+              <div class="col ps-0">
+                <img src="../image/CHplay.png" alt="CHplay" style="width: 100%;">
+              </div>
+            </div>
+            <span>Secured Payment Gateways</span> <br>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p>&copy; 2023 HighFashion.com</p>
+    </div>
+  </footer>
+  <script src="../bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/generalFunction.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+
+</html>

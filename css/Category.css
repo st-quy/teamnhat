@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.star {
+  color: #FFD700;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+}
+li a{
+  color: rgb(40, 38, 38);
+}
+img{
+  width: 230px;
+}
+/* Hover */
+/* .image-animation {
+  animation: moveImage 1s linear infinite;
+}
+
+@keyframes moveImage {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25%, 75% {
+    transform: translate(-5px, -5px);
+  }
+} */
+
+@media screen and (max-width:575px) {
+  img{
+    width: 98%;
+  }
+}
+@media screen and (min-width: 768px) {
+.col-1 {
+  display: none;
+}
+}
+
+  
+

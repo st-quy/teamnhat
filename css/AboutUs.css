@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+.content{
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.heading{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 575px) {
+  #img-about{
+    width: 80vw;
+  }
+
+  .content{
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .heading{
+    font-size: 40px;
+  }
+}
